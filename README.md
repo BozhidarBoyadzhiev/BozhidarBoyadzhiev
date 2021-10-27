@@ -11,7 +11,7 @@
 
 $servername = "Bozhidar";
 $dBUsername = "Don't have";
-$dBPassword = "16";
+$dBPassword = "15";
 $dBMusic = "Metal enjoyer";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBMusic);
