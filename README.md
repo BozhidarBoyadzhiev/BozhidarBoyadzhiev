@@ -15,7 +15,7 @@ $dBUsername = "Don't have";
 $dBAge = "15";
 $dBMusic = "Metal enjoyer";
 
-$conn = mysqli_connect($servername, $dBAge, $dBPassword, $dBMusic);
+$conn = mysqli_connect($servername, $dBUsername, $dBAge, $dBMusic);
 
 if (!$conn) {
 	die();
