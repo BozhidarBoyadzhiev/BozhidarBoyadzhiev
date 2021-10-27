@@ -12,9 +12,9 @@
 $servername = "Bozhidar";
 $dBUsername = "Don't have";
 $dBPassword = "16";
-$dBName = "Metal enjoyer";
+$dBMusic = "Metal enjoyer";
 
-$conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
+$conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBMusic);
 
 if (!$conn) {
 	die();
