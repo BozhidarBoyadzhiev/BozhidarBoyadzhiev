@@ -32,6 +32,8 @@ if (!$conn) {
 my_hobbies_and_work.php
 <?php
 
+require "dbh.php";
+
 function hobbies_and_work($conn) {
 
   $hobbies = "I like playing competitive games and programming";
