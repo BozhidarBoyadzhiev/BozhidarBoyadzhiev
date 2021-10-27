@@ -11,10 +11,10 @@
 
 $servername = "Bozhidar";
 $dBUsername = "Don't have";
-$dBPassword = "15";
+$dBAge = "15";
 $dBMusic = "Metal enjoyer";
 
-$conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBMusic);
+$conn = mysqli_connect($servername, $dBAge, $dBPassword, $dBMusic);
 
 if (!$conn) {
 	die();
