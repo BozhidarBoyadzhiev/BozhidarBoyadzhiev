@@ -7,6 +7,7 @@
 <h3 align="center">😎 About me</h3>
 
 ```php
+dbh.php
 <?php
 
 $servername = "Bozhidar";
@@ -19,7 +20,7 @@ $conn = mysqli_connect($servername, $dBAge, $dBPassword, $dBMusic);
 if (!$conn) {
 	die();
 } else {
-	header("Location: myhobbies.php");
+	header("Location: my_hobbies_and_work.php");
 }
 ```
 
@@ -28,14 +29,15 @@ if (!$conn) {
 <h3 align="center">💻 Hobbies and Work</h3>
 
 ```php
+my_hobbies_and_work.php
 <?php
 
 function hobbies_and_work($conn) {
 
   $hobbies = "I like playing competitive games and programming";
-  $currentwork = "Currently working on notemanager with Valeri Ivanov";
+  $current_work = "Currently working on notemanager with Valeri Ivanov";
   $currently_learning = "JavaScript";
-  $myprojects = "Company website and personal projects";
+  $my_projects = "Company website and personal projects";
   $reach_me = "bpboyadzhiev20@codingburgas.bg";
   
   $languages = [
