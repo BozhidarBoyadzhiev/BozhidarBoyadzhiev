@@ -12,7 +12,7 @@ dbh.php
 
 $servername = "Bozhidar";
 $dBUsername = "Don't have";
-$dBAge = "15";
+$dBAge = "17";
 $dBMusic = "Metal enjoyer";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBAge, $dBMusic);
