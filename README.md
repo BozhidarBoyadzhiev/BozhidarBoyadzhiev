@@ -12,7 +12,7 @@ dbh.php
 
 $servername = "Bozhidar";
 $dBUsername = "Don't have";
-$dBAge = "17";
+$dBAge = "19";
 $dBMusic = "Metal enjoyer";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBAge, $dBMusic);
@@ -37,7 +37,7 @@ require "dbh.php";
 function hobbies_and_work($conn) {
 
   $hobbies = "I like playing competitive games and programming";
-  $current_work = "Currently working on notemanager with Valeri Ivanov";
+  $current_work = "Currently working on notemanager with Valeri Ivanov 🕵️🕵️";
   $currently_learning = "JavaScript";
   $my_projects = "Company website and personal projects";
   $reach_me = "bpboyadzhiev20@codingburgas.bg";
