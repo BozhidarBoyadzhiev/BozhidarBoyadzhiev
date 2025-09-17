@@ -11,7 +11,7 @@ dbh.php
 <?php
 
 $servername = "Bozhidar";
-$dBUsername = "Don't have";
+$dBUsername = "Boyan";
 $dBAge = "19";
 $dBMusic = "Metal enjoyer";
 
@@ -37,10 +37,10 @@ require "dbh.php";
 function hobbies_and_work($conn) {
 
   $hobbies = "I like playing competitive games and programming";
-  $current_work = "Currently working on notemanager with Valeri Ivanov 🕵️🕵️";
+  $current_work = "Not doing anything at the moment";
   $currently_learning = "JavaScript";
   $my_projects = "Company website and personal projects";
-  $reach_me = "bpboyadzhiev20@codingburgas.bg";
+  $reach_me = "bozhidar.p.boyadzhiev@gmail.com;
   
   $languages = [
     array("programming_languages", "PHP", "C++"),
