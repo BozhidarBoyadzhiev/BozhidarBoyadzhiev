@@ -38,14 +38,15 @@ function hobbies_and_work($conn) {
 
   $hobbies = "I like playing competitive games and programming";
   $current_work = "Not doing anything at the moment";
-  $currently_learning = "JavaScript";
+  $currently_learning = "WPF";
   $my_projects = "Company website and personal projects";
   $reach_me = "bozhidar.p.boyadzhiev@gmail.com;
   
   $languages = [
-    array("programming_languages", "PHP", "C++"),
+    array("programming_languages", "C#", "PHP", "C++"),
+	array("frameworks", "Entity Framework", "ASP.NET Core"),
     array("frontend_languages", "Bootstrap5", "CSS3", "HTML5"),
-    "database" => "mysqli"
+    "database" => "MySQLi", "Microsoft Sql Server"
   ];
 
   return true;
