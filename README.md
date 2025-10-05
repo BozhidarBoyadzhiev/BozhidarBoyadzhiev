@@ -49,22 +49,7 @@ function hobbies_and_work($conn) {
     "database" => "MySQLi", "Microsoft Sql Server"
   ];
 
-  return true;
+  header("Location: my_projects.php");
 }
 ```
-
-<hr>
-<br>
-
-<h3 align="center">🏆 Stats</h3>
-  <div align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=BozhidarBoyadzhiev&theme=dark&show_icons=true" height="180">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BozhidarBoyadzhiev&layout=compact&theme=dark"  height="180">
-  </div>
-  
-<hr>
-<br>
-
-<div align="center">
-  <img src="https://shields-io-visitor-counter.herokuapp.com/badge?page=BozhidarBoyadzhiev.BozhidarBoyadzhiev">
-</div>
+<h3 align="center">🚀 My Projects</h3>
