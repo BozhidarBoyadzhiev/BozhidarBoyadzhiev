@@ -3,7 +3,8 @@
 I build and maintain business applications in C# and .NET.
 
 Right now I'm working on Synapse, a workforce management platform where
-companies track staff attendance and their work by tasks.
+companies track staff attendance (QR codes and NFC, with Bluetooth beacons
+planned) and their work by tasks.
 
 Mostly C#, ASP.NET Core, Entity Framework, SQL Server and Azure.
 
